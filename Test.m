@@ -1,0 +1,1 @@
+StringUtil.isChar('n')
