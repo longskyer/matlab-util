@@ -1,1 +1,1 @@
-StringUtil.isChar('n')
+feature('locale')

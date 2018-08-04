@@ -1,5 +1,5 @@
 classdef ArrayUtil
-    %ARRAYUTIL 一维数组工具类
+    %ARRAYUTIL 一维数组工具类,虽然取名为数组，但是也可以是向量
     %   封装一维数组常用的操作
     
     properties
@@ -37,6 +37,18 @@ classdef ArrayUtil
         %拷贝数组
         function anArray=copyArray(sourceArray)
             anArray=sourceArray;
+        end
+        %获取各元素最大值
+        function aValue=getMax(anArray)
+            aValue=max(anArray);
+        end
+        %获取各元素最小值
+        function aValue=getMin(anArray)
+            aValue=min(anArray);
+        end
+        %获取各元素平均值
+        function aValue=average(anArray)
+            aValue=mean(anArray);
         end
     end
     
